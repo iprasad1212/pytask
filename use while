@@ -1,0 +1,15 @@
+i = 0
+while i<3:
+    print("Python ",end="")
+    i+=1
+    j=0
+    while j<3:
+        print("Rocks ",end="")
+        j+=1
+    print()
+print("Bye")
+
+# OUT : Python Rocks Rocks Rocks 
+#       Python Rocks Rocks Rocks 
+#       Python Rocks Rocks Rocks 
+#       Bye
